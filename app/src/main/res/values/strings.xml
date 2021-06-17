@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">login</string>
+    <string name="app_name">Archana-ERP-Android-Client</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">login</string>
@@ -8,5 +8,6 @@
     <string name="signup">signup</string>
     <string name="loginhere">already Have Account?<u>login</u> </string>
     <string name="signuphere">Create New Account</string>
-
+    <string name="archana_women_s_center">Archan Women\'s Center</string>
+    <string name="powered_by_wahy_lab_solutions">Powered By Wahy Lab Solutions</string>
 </resources>
