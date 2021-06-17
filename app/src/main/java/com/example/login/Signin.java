@@ -35,55 +35,59 @@ public class Signin extends AppCompatActivity {
 
         buttonLogin.setOnClickListener(v -> {
 
-            String username, password;
-            username = String.valueOf(textInputEditTextUsername.getText());
-            password = String.valueOf(textInputEditTextPassword.getText());
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+            finish();
 
-            if (!username.equals("") && !password.equals("")) {
-
-                progressBar.setVisibility(View.VISIBLE);
-                Handler handler = new Handler();
-
-                handler.post(() -> {
-
-                    //Starting Write and Read data with URL
-                    //Creating array for parameters
-                    String[] field = new String[2];
-                    field[0] = "username";
-                    field[1] = "password";
-                    //Creating array for data
-                    String[] data = new String[2];
-                    data[0] = username;
-                    data[1] = password;
-                    PutData putData = new PutData(new ArchanaErpApiUtils().getLoginApiUrl(), "POST", field, data);
-
-                    if (putData.startPut()) {
-
-                        if (putData.onComplete()) {
-
-                            progressBar.setVisibility(View.GONE);
-                            String result = putData.getResult();
-
-                            if (result.equals("Login Success")) {
-
-                                Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                startActivity(intent);
-                                finish();
-
-                            } else {
-
-                                Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
-                            }
-                            //End ProgressBar (Set visibility to GONE)
-                        }
-                    }
-                    //End Write and Read data with URL
-                });
-            } else {
-
-                Toast.makeText(getApplicationContext(), "all fields are Required", Toast.LENGTH_SHORT).show();
-            }
+//            String username, password;
+//            username = String.valueOf(textInputEditTextUsername.getText());
+//            password = String.valueOf(textInputEditTextPassword.getText());
+//
+//            if (!username.equals("") && !password.equals("")) {
+//
+//                progressBar.setVisibility(View.VISIBLE);
+//                Handler handler = new Handler();
+//
+//                handler.post(() -> {
+//
+//                    //Starting Write and Read data with URL
+//                    //Creating array for parameters
+//                    String[] field = new String[2];
+//                    field[0] = "username";
+//                    field[1] = "password";
+//                    //Creating array for data
+//                    String[] data = new String[2];
+//                    data[0] = username;
+//                    data[1] = password;
+//                    PutData putData = new PutData(new ArchanaErpApiUtils().getLoginApiUrl(), "POST", field, data);
+//
+//                    if (putData.startPut()) {
+//
+//                        if (putData.onComplete()) {
+//
+//                            progressBar.setVisibility(View.GONE);
+//                            String result = putData.getResult();
+//
+//                            if (result.equals("Login Success")) {
+//
+//                                Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+//                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+//                                startActivity(intent);
+//                                finish();
+//
+//                            } else {
+//
+//                                Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+//                            }
+//                            //End ProgressBar (Set visibility to GONE)
+//                        }
+//                    }
+//                    //End Write and Read data with URL
+//                });
+//            } else {
+//
+//                Toast.makeText(getApplicationContext(), "all fields are Required", Toast.LENGTH_SHORT).show();
+//            }
         });
     }
 }
