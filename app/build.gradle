@@ -21,8 +21,10 @@ android {
     defaultConfig {
 
         applicationId "com.example.login"
+
         minSdkVersion 23
         targetSdkVersion 30
+
         versionCode 1
         versionName "1.0"
 
@@ -34,7 +36,8 @@ android {
         release {
 
             signingConfig signingConfigs.release
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
