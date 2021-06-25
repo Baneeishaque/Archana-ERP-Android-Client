@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.login">
 
     <application
+
         android:allowBackup="false"
         android:icon="@mipmap/ic_awc"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_awc_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Archana_ERP"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
         <activity
             android:name=".LauncherActivity"
             android:exported="true"
@@ -19,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="Archana Women's Center" />
         <activity android:name=".ChangepasswordActivity" />
         <activity android:name=".YearActivity" />
         <activity android:name=".BranchActivity" />
@@ -38,6 +46,9 @@
         <activity
             android:name=".SignUp"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <uses-library android:name="org.apache.http.legacy" />
+
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

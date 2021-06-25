@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/Utils17/Utils16/Utils14/Resources/common/src/main/res/layout/recyclerview_with_toolbar_and_progressbar.xml" value="0.12760416666666666" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/app/src/main/res/layout/activity_signin.xml" value="0.12760416666666666" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1365" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/drawable/ic_awc_background.xml" value="0.2265" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/drawable/ic_email.xml" value="0.137" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/layout/activity_launcher.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
+        <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/layout/activity_settings.xml" value="0.12708333333333333" />
+        <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/layout/activity_sign_up.xml" value="0.12708333333333333" />
+        <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/layout/activity_signin.xml" value="0.25416666666666665" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/mipmap-anydpi-v26/ic_awc.xml" value="0.2265" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/mipmap-anydpi-v26/ic_awc_round.xml" value="0.2265" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
@@ -15,7 +22,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

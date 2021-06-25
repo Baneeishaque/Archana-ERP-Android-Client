@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Archana-ERP-Android-Client.app" target="11" />
+      <module name="Archana-ERP-Android-Client.DebugUtils.common" target="11" />
+      <module name="Archana-ERP-Android-Client.Resources.common" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils1.common1" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils11.common11" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils14.common14" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils16.common16" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils16.tests16" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils17.common17" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils19.common19" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils19.tests19" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils3.common3" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils4.common4" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils7.common7" target="11" />
+      <module name="Archana-ERP-Android-Client.Utils9.common9" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

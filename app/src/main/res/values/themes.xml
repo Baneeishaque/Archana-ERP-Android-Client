@@ -12,11 +12,15 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Theme.Archana_ERP.NoActionBar" parent="Theme.Archana_ERP">
+    <style name="Theme.Archana_ERP.NoActionBar">
+        <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
+    <style name="Theme.ERPAndroidClient.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ERPAndroidClient.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

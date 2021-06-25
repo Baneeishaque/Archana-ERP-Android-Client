@@ -3,6 +3,12 @@ package com.example.login;
 public class ArchanaErpApiUtils extends ApiUtils {
 
     @Override
+    protected String getFileExtension() {
+
+        return ServerEndPoint.serverFileExtension;
+    }
+
+    @Override
     protected String getServerApplicationFolder() {
 
         return ServerEndPoint.serverApplicationFolder;
@@ -22,7 +28,8 @@ public class ArchanaErpApiUtils extends ApiUtils {
 
     String getLoginApiUrl() {
 
-        return getApiMethodEndpointUrl("login.php");
+//        return getApiMethodEndpointUrl("login.php");
+        return getApiMethodEndpointUrl("getLogin");
     }
 
     String getSignUpApiUrl() {
