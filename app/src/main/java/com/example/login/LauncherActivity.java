@@ -1,9 +1,5 @@
 package com.example.login;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
@@ -20,6 +16,8 @@ public class LauncherActivity extends ArchanaErpActivity {
         Handler handler = new Handler();
         handler.postDelayed(() -> {
 
+//            ActivityUtils14.startActivityForClassWithFinish(currentActivityContext, MainActivity.class);
+//            ActivityUtils14.startActivityForClassWithFinish(currentActivityContext, GroupsActivity.class);
             ActivityUtils14.startActivityForClassWithFinish(currentActivityContext, LoginActivity.class);
 
         }, 3000);

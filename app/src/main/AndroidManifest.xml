@@ -26,7 +26,12 @@
 
         <activity
             android:name=".LoginActivity"
-            android:label="Archana Women's Center" />
+            android:label="Authentication" />
+
+        <activity
+            android:name=".GroupsActivity"
+            android:label="Groups" />
+
         <activity android:name=".ChangepasswordActivity" />
         <activity android:name=".YearActivity" />
         <activity android:name=".BranchActivity" />

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ArchanaErpActivity {
 
     CardView transaction;
     CardView profile;
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle(applicationSharedPreferences.getString("selectedGroup","Unknown") +" Home");
 
         transaction = findViewById(R.id.transaction);
         profile = findViewById(R.id.profile);

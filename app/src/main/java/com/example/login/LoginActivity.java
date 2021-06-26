@@ -6,7 +6,6 @@ import android.widget.EditText;
 
 import androidx.core.util.Pair;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -15,8 +14,7 @@ import java.util.ArrayList;
 import ndk.utils_android1.ToastUtils1;
 import ndk.utils_android14.ActivityUtils14;
 import ndk.utils_android14.ButtonUtils14;
-import ndk.utils_android14.HttpApiSelectTask3;
-import ndk.utils_android14.HttpApiSelectTaskWrapper3;
+import ndk.utils_android14.HttpApiSelectTaskWrapper14;
 import ndk.utils_android16.ValidationUtils16;
 import ndk.utils_android19.ExceptionUtils19;
 
@@ -41,21 +39,18 @@ public class LoginActivity extends ArchanaErpActivity {
 
             if (validationResult.getValue0()) {
 
-//                startActivity(new Intent(activityContext, DashboardActivity.class));
-//                ((AppCompatActivity) activityContext).finish();
-
-                HttpApiSelectTaskWrapper3.execute(new ArchanaErpApiUtils().getLoginApiUrl(), currentActivityContext, (View) findViewById(R.id.progressBar), (View) findViewById(R.id.constraintLayout), applicationSpecification.applicationName, new Pair[]{new Pair<>("user_name", editTextUsername.getText().toString()), new Pair<>("passcode", editTextPasscode.getText().toString())}, jsonArray -> {
+                HttpApiSelectTaskWrapper14.executeNonSplashForegroundPostWithParametersAndWithoutStatusCheckOnAsyncResponseJsonArrayFirstElement(new ArchanaErpApiUtils().getLoginApiUrl(), new Pair[]{new Pair<>("user_name", editTextUsername.getText().toString()), new Pair<>("password", editTextPasscode.getText().toString())}, currentActivityContext, (View) findViewById(R.id.progressBar), (View) findViewById(R.id.constraintLayout), applicationSpecification.applicationName, jsonArray -> {
 
                     try {
 
                         JSONObject countJsonObject = jsonArray.getJSONObject(0);
-                        if (countJsonObject.getInt("count") == 0) {
+                        if (countJsonObject.getString("count").equals("0")) {
 
                             ToastUtils1.longToast(currentApplicationContext, "Invalid User!...");
 
                         } else {
 
-                            ActivityUtils14.startActivityForClassWithFinish(currentActivityContext, MainActivity.class);
+                            ActivityUtils14.startActivityForClassWithFinish(currentActivityContext, GroupsActivity.class);
                         }
 
                     } catch (JSONException jsonException) {

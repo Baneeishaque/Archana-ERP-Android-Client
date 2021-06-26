@@ -126,6 +126,7 @@ dependencies {
     implementation project(path: ':Utils1:common1')
 
     implementation project(path: ':Resources:common')
+    implementation project(path: ':DebugUtils:common')
 
     implementation project(path: ':Utils16:common16')
     implementation 'org.javatuples:javatuples:1.2'

@@ -47,7 +47,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Passcode"
-                android:imeOptions="actionDone" />
+                android:imeOptions="actionDone"
+                android:singleLine="true" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -65,7 +66,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Username"
-                android:imeOptions="actionNext" />
+                android:imeOptions="actionNext"
+                android:singleLine="true" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

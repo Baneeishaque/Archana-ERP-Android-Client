@@ -19,7 +19,7 @@ public class SettingsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_settings);
 
         branch = findViewById(R.id.branch);
-        year = findViewById(R.id.profile);
+        year = findViewById(R.id.year);
         changepassword = findViewById(R.id.changepassword);
 
         branch.setOnClickListener(v -> startActivity(new Intent(SettingsActivity.this, BranchActivity.class)));

@@ -4,7 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/Utils17/Utils16/Utils14/Resources/common/src/main/res/layout/recyclerview_with_toolbar_and_progressbar.xml" value="0.12760416666666666" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/Utils17/Utils16/Utils14/common14/src/main/res/drawable/ic_camera_black_720dp.xml" value="0.226" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/Utils17/Utils16/Utils14/common14/src/main/res/layout/splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/Utils17/Utils16/common16/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/Utils17/Utils16/common16/src/main/res/menu/pass_book.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/Utils17/common17/src/main/res/layout/activity_launchers.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/common19/src/main/res/layout/activity_text_with_buttons.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/common19/src/main/res/layout/activity_webview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/common19/src/main/res/layout/pass_book.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/U19/common19/src/main/res/layout/pass_book_v2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/app/src/main/res/layout/activity_branches.xml" value="0.25416666666666665" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/app/src/main/res/layout/activity_main.xml" value="0.12760416666666666" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/app/src/main/res/layout/activity_settings.xml" value="0.12760416666666666" />
         <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/app/src/main/res/layout/activity_signin.xml" value="0.12760416666666666" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/app/src/main/res/layout/list_item_branch.xml" value="0.26614583333333336" />
+        <entry key="..\:/Banee_Data/Archana-ERP-Android-Client/app/src/main/res/layout/list_item_group.xml" value="0.25416666666666665" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1365" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/drawable/ic_awc_background.xml" value="0.2265" />
         <entry key="..\:/Banee_Data/To_Sync/Lab_Banee/Android_Studio/Archana-ERP-Android-Client/app/src/main/res/drawable/ic_email.xml" value="0.137" />

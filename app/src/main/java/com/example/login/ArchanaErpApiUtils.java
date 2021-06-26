@@ -36,4 +36,9 @@ public class ArchanaErpApiUtils extends ApiUtils {
 
         return getApiMethodEndpointUrl("signup.php");
     }
+
+    String getGroupsApiUrl() {
+
+        return getApiMethodEndpointUrl("getGroups");
+    }
 }

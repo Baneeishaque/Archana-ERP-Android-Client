@@ -239,7 +239,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:text="Archana Women Center"
+                android:text="@string/archana_women_s_center"
                 android:textColor="@color/purple_200"
                 android:textSize="28sp" />
         </LinearLayout>
